@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3F3B6C;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.header li {
+    padding-top: 17px;
+}
+
+.header h1 {
+    color: aliceblue;
+    padding-right: 660px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+.intro_left {
+    opacity: .5;
+}
+
+.intro_right h1 {
+    font-size: 80px;
+    color: aliceblue;
+}
+
+.intro_right {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.hero img {
+    width: 500px;
+    height: 400px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 120px;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+
+.info_left {
+    padding: 30px;
+}
+
+.info_left h1 {
+    font-size: 70px;
+}
+
+.info_left p {
+    font-size: 20px;
+}
+
+.info_right {
+    padding: 30px;
+}
+
+.comand {
+    padding-top: 30px;
+}
+
+.comand h1 {
+    font-size: 70px;
+    color: aliceblue;
+}
+
+.comand_bottom {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.comand_bottom h1 {
+    color: grey;
+    font-size: 40px;
+    opacity: .7;
+}
+
+.comand_bottom img {
+    opacity: .3;
+}
+
+.form {
+    background-color: #624F82;
+    width: 400px;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid #624F82;
+    box-shadow: 0px 0px 5px 5px #9F73AB;
+}
+
+.form h1 {
+    color: aliceblue;
+}
+
+.input1 {
+    padding: 5px 40px;
+    background-color: darkgray;
+    border: 0;
+    border-radius: 5px;
+}
+
+.input2 {
+    border: 0;
+    background-color: darkgrey;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    text-align: start;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    margin-top: 100px;
+    flex-shrink: 0;
+}
+
+.footer ul {
+    display: flex;
+    gap: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    list-style: none;
+}
+
+.footer a:link {
+    color: aliceblue;
+    font-size: 20px;
+}
+
